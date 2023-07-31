@@ -1,0 +1,23 @@
+.home {
+    transform: translate(0, -100px);
+    .entry-content {
+        margin: 150px 0 0 0;
+        .heading-2 {
+            font-weight: 400;
+            font-size: 56px;
+            color: $black-color;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .paragraph-1 {
+            font-weight: 400;
+            font-size: 24px;
+            color: $sonicsilver-color;
+            width: 50%;
+            line-height: 28px;
+            text-align: center;
+            min-width: 50%;
+            margin: 0 auto;
+        }
+    }
+}
