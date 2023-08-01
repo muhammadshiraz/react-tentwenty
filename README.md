@@ -38,6 +38,6 @@ npm install
 
 ```sh
 npm start
+```
 
 This will launch the development server, and you can access the application at http://localhost:9000.
-```
