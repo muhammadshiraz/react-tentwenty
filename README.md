@@ -9,8 +9,8 @@
 
 - [Description](#description)
 - [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Scripts](#scripts)
+- [Dependencies](#dependencies)
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
@@ -39,5 +39,27 @@ npm install
 ```sh
 npm start
 ```
-
 This will launch the development server, and you can access the application at http://localhost:9000.
+
+4. **Build the Application:** To build the production-ready application, run the following command:
+
+```sh
+npm run build
+```
+
+The built files will be located in the dist directory.
+
+## Scripts
+
+- `npm start:` Starts the webpack development server.
+- `npm run build:` Builds the production version of the application using webpack.
+- `npm test:` Runs tests, if any.
+
+## Dependencies
+
+- React: ^17.0.2
+- React DOM: ^17.0.2
+- React Router: ^6.11.1
+- React Router DOM: ^6.11.1
+- React Burger Menu: ^3.0.9
+- Swiper: ^9.0.0
