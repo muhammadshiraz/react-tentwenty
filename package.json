@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack --mode production",
+    "deploy": "webpack --mode production && npm run deploy:serve",
+    "deploy:serve": "npx serve dist"
   },
   "author": "FrontendGuruji",
   "license": "ISC",
